@@ -1,5 +1,6 @@
 from pyrogram import Client
 from pyrogram.types import filters
+from config import config
 
 
 @Client.on_message(filters.photo())
